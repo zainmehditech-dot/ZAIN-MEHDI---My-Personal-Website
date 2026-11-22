@@ -44,9 +44,13 @@
         }
 
         .profile img {
-            width: 130px;
-            height: 130px;
+            width: 180px;
+            height: 180px;
             border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #2874a6;
+            box shadow: 0 4px 12px;
+            rgba(0,0,0,0.2);
         }
 
         .section {
@@ -100,6 +104,11 @@
 
 <div class="profile" id="home">
 
+    <div class="profile-container">
+    <img src="profile.jpg"
+         alt="Zain Mehdi"
+         class="profile-picture">
+</div>
     <h1>Hello! I Am ZAIN MEHDI</h1>
 
     <h3>1st Semester | BSCS Section A | Student</h3>
@@ -121,7 +130,7 @@
 
     <p>
         My name is ZAIN MEHDI.
-        I am a student of BSCS Sction A.
+        I am a student of BSCS.
         I am interested in computer science,
         technology and web development.
     </p>
